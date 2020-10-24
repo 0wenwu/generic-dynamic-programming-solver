@@ -26,10 +26,10 @@ Instructions
 - matplotlib (3.1.0)
 - seaborn (0.9.0)
 
-# Deterministic DP Solver
+### Deterministic DP Solver
 2. Inspect the codes in `knapsack.py`, run `python knapsack.py` to see the solution.
 3. Inspect the codes in `dna.py`, run `python dna.py` to see the solution.
 
-# Stochastic DP Solver
+### Stochastic DP Solver
 4. Inspect the codes in `blackjack.py`
 5. Open and run `blackjack_results.py` in an IDE, e.g. Spyder, to visualize the solution.
