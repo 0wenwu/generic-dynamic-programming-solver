@@ -13,6 +13,23 @@ List of files
 |---|---|
 |`dpsolver.py`|The core generic solver for determinstic DP and stochastic DP problems.
 |`knapsack.py`|The demo shows you how to write the game object for the Knapsack problem, and call the solver.
-|`dna.py`|The demo shows you how to write the game object for the DNA sequences alignment problem, and call the solver.
+|`dna.py`|The demo shows you how to write the game object for the DNA sequences alignment, and call the solver.
 |`blackjack.py`|The demo shows you how to write the game oject for the Blackjack game, which is a stochastic DP problem.
 |`blackjack_results.py`|Visualize the optimal policy for the Blackjack game.
+
+Instructions
+===
+1. Install the following packages:
+- python (3.6.8)
+- numpy (1.16.4)
+- pandas (0.24.2)
+- matplotlib (3.1.0)
+- seaborn (0.9.0)
+
+# Deterministic DP Solver
+2. Inspect the codes in `knapsack.py`, run `python knapsack.py` to see the solution.
+3. Inspect the codes in `dna.py`, run `python dna.py` to see the solution.
+
+# Stochastic DP Solver
+4. Inspect the codes in `blackjack.py`
+5. Open and run `blackjack_results.py` in an IDE, e.g. Spyder, to visualize the solution.
