@@ -20,11 +20,11 @@ List of files
 Instructions
 ===
 1. Install the following packages:
-- python (3.6.8)
-- numpy (1.16.4)
-- pandas (0.24.2)
-- matplotlib (3.1.0)
-- seaborn (0.9.0)
+  - python (3.6.8)
+  - numpy (1.16.4)
+  - pandas (0.24.2)
+  - matplotlib (3.1.0)
+  - seaborn (0.9.0)
 
 ### Deterministic DP Solver
 2. Inspect the codes in `knapsack.py`, run `python knapsack.py` to see the solution.
