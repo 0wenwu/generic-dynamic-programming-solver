@@ -8,7 +8,8 @@ What are the similarities shared between Dynamic Programming (DP) and Reinforcem
 
 List of files
 ===
-|Folder|File Name|Description|
+
+|File|Description|
 |---|---|
 |`dpsolver.py`|The core generic solver for determinstic DP and stochastic DP problems.
 |`knapsack.py`|The demo shows you how to write the game object for the Knapsack problem, and call the solver.
