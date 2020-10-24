@@ -87,7 +87,7 @@ class DnaAlignGame(object):
         """
 
         x, y = state
-        if action == 0:  # use both
+        if action == 0:                     # use both
             if x[0] == y[0]:
                 reward = self.reward_match
             else:
@@ -96,16 +96,16 @@ class DnaAlignGame(object):
             x = x[1:]
             y = y[1:]
         
-        elif action == 1: # use x only
+        elif action == 1:                   # use x only
             reward = self.penalty_insdel
             x = x[1:]
         
-        else: # use y only 
+        else:                               # use y only 
             reward = self.penalty_insdel
             y = y[1:]
         
         state = (x, y)
-        return state, reward # value added
+        return state, reward                # the next state, and how much scored
 
     
 if __name__ == '__main__':       
